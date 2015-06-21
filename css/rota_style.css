@@ -1,0 +1,107 @@
+div#scroll_content{width:93%; margin-left:10px;}
+table#rota_cal {width:100%}
+table#rota_cal.calendar_rota table,th,td{ border: 1px solid black;}
+
+table#rota_cal th.highlight{background-color:yellow;}
+table#rota_cal div.rota_staff_radio label{}
+table#rota_cal div.rota_staff_radio span.ui-button-text{padding:0px 6px 0px 1px;}
+table#rota_cal div.rota_staff_radio label.ui-state-default{color:darkblue;}
+table#rota_cal div.rota_staff_radio label.ui-state-active{color:red;}
+table#rota_cal div.rota_staff_radio label.disabled span{background-color: black;}
+
+table#rota_cal button.unselected{background-color: rgba(0,0,0,.3);}
+table#rota_cal button.selected{background-color: rgba(255,255,255,.6); border-style: inset;}
+
+table#rota_cal div.rota_staff_buttons button.incapable{
+	border-color:rgba(0,0,0,0);
+	background-color:rgba(0,0,0,0);
+	color:rgba(0,0,0,0);
+}
+
+table#rota_cal div.rota_staff_buttons button.pos_select {
+	width: 17px;
+	height: 21px;
+	padding: 1px;
+	margin: 0px;
+	font-size:70%;
+	font-weight:bold;
+	text-align:center;
+}
+
+table#rota_cal td div.button_div{float:left;}
+
+table#rota_cal td{height:1px;}
+table#rota_cal td div.td_div{height:100%;}
+
+table#rota_cal .rq_away button, table#rota_cal td.rq_av0 button, table#rota_cal td.rq_av-1 button{
+	border-color:rgba(0,0,0,.1);
+	background-color:rgba(0,0,0,0);
+	color:rgba(0,0,0,.2);
+}
+
+table#rota_cal td.rq_av1{
+	-webkit-box-shadow:inset 0px 0px 0px 5px red;
+	-moz-box-shadow:inset 0px 0px 0px 5px red;
+	box-shadow:inset 0px 0px 0px 5px red;
+}
+table#rota_cal td.rq_av2{}
+table#rota_cal td.rq_av3{
+	-webkit-box-shadow:inset 0px 0px 0px 5px green;
+	-moz-box-shadow:inset 0px 0px 0px 5px green;
+	box-shadow:inset 0px 0px 0px 5px green;
+}
+table#rota_cal td.rq_conflict{background-color:red;}
+
+table#rota_cal td div.td_div.rq_contract_under{
+	background: repeating-linear-gradient( to bottom, yellow, yellow 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px );
+}
+table#rota_cal td div.td_div.rq_contract_over{
+	background: repeating-linear-gradient( to bottom, orange, orange 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px );
+}
+table#rota_cal td div.td_div.rq_fixed{
+	background: repeating-linear-gradient( 45deg, blue, blue 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px);
+}
+
+table#rota_cal td div.td_div.rq_contract_under.rq_fixed{
+	background: repeating-linear-gradient( 45deg, blue, blue 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px), repeating-linear-gradient( to bottom, yellow, yellow 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px );
+}
+
+table#rota_cal td div.td_div.rq_contract_over.rq_fixed{
+	background: repeating-linear-gradient( 45deg, blue, blue 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px), repeating-linear-gradient( to bottom, orange, orange 5px, rgba(0,0,0,0) 5px, rgba(0,0,0,0) 10px );
+}
+
+table#rota_cal td div.button_div.rq_needs_over{
+	background: repeating-linear-gradient( to right, orange, orange 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );
+}
+table#rota_cal td div.button_div.rq_needs_under{
+	background: repeating-linear-gradient( to right, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );
+}
+
+table#rota_cal td div.button_div.rq_pos_over{
+	background: repeating-linear-gradient( to bottom, orange, orange 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );	
+}
+table#rota_cal td div.button_div.rq_pos_under{
+	background: repeating-linear-gradient( to bottom, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );
+}
+table#rota_cal td div.button_div.rq_pos_fixed{
+	-webkit-box-shadow:inset 0px 0px 0px 5px blue;
+	-moz-box-shadow:inset 0px 0px 0px 5px blue;
+	box-shadow:inset 0px 0px 0px 5px blue;
+}
+
+table#rota_cal td div.button_div.rq_needs_over.rq_pos_over{
+	background: repeating-linear-gradient( to right, orange, orange 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px ), repeating-linear-gradient( to bottom, orange, orange 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );	
+}
+table#rota_cal td div.button_div.rq_needs_over.rq_pos_under{
+	background: repeating-linear-gradient( to right, orange, orange 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px ), repeating-linear-gradient( to bottom, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );
+}
+table#rota_cal td div.button_div.rq_needs_under.rq_pos_over{
+	background: repeating-linear-gradient( to right, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px ), repeating-linear-gradient( to bottom, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );
+}
+table#rota_cal td div.button_div.rq_needs_under.rq_pos_under{
+	background: repeating-linear-gradient( to right, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px ), repeating-linear-gradient( to bottom, yellow, yellow 3px, rgba(0,0,0,0) 3px, rgba(0,0,0,0) 6px );
+}
+
+
+table#rota_cal .rq_away.rq_warning{background-color:rgba(0,0,0,0);}
+table#rota_cal .rq_away.rq_severe{background-color:rgba(0,0,0,0);}

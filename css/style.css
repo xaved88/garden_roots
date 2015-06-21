@@ -1,0 +1,171 @@
+body{font-family:calibri;}
+/* PAGE HEADER STUFF*/
+div.page_header{display:inline-block;}
+div.nav_bar{float:left}
+div.user_box{
+	float:left;
+	margin-top: 14px;
+	margin-left: 45px;
+	border-width: 2px;
+	border-style: solid;
+	height: 46px;
+	width: 165px;
+	padding: 5px;
+	border-radius: 7px;
+	border-color: green;
+	font-size:80%;
+}
+div.user_box input{
+	width:50px;
+	height:18px;
+}
+div.user_box input[type='submit']{
+	height:23px;
+}
+div.roots_logo{
+	width: 200px;
+	height: 50px;
+	margin: 14px 10px 0px 10px;
+	float:left;
+	background:url('../images/garden_logo.png') no-repeat;
+	background-size: 95%;
+}
+
+/* STAFF SELECTOR */
+div.staff_selector{
+	border-style: solid;
+	width: 210px;
+	border-width: 2px;
+	float:left;}
+div.staff_selector .search{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding: 3px 10px;}
+div.staff_selector .findings{
+	cursor: pointer;
+	padding: 3px 10px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+div.staff_selector .staff_selector_member{
+	width:100%;
+}
+div.staff_selector .staff_selector_member.ss_selected{
+	background-color:black;
+	color:white;
+}
+/* STAFF PAGES */
+div#add_staff{ height:400px;}
+div#add_staff div[id^=tabs]{height: 315px; overflow:scroll}
+div#mod_staff{float:left; padding: 0px 10px;}
+
+/* Staff_Mod Page */
+table[class^=staff_]{}
+table[class^=staff_] td.table_button{
+	width:20px; 
+	border-style:outset; 
+	text-align:center; 
+	background:rgba(25, 150, 150, 0.5);
+	cursor:pointer;
+}
+table[class^=staff_] td.del{
+	background-color:darkred;
+}
+table[class^=staff_] tr.del td{
+	background-color:darkred;
+}
+table[class^=staff_] td.add{
+	color:blue;
+}
+div#mod_staff div#tabs-pos{
+	width:600px;
+	overflow-x:scroll;
+}
+div#mod_staff  div#tabs-pos input[type=number]{
+	width:40px;
+	text-align:right;
+}
+button#save_staff{float:left;}
+
+
+/*Staff_mod: schedule*/
+div#tabs-sched div.av_sched_temp.hidden{
+	display:none;
+}
+div#tabs-sched div.av_pref_slider{}
+div#tabs-sched select.av_pos{float:left;}
+div#tabs-sched div.av_fixed_buttons{float:left}
+div#tabs-sched div.av_fixed_buttons .select{background-color:white; border-style:inset}
+div#tabs-sched div.av_fixed_buttons .noselect{background-color:darkgray; border-style:outset}
+div#tabs-sched td.av_pref_slider_-1{background: repeating-linear-gradient( to right, black, black 3px, white 3px, white 6px );}
+div#tabs-sched td.av_pref_slider_1{background-color: red;}
+div#tabs-sched td.av_pref_slider_2{background-color: green;}
+div#tabs-sched td.av_pref_slider_3{background-color: blue;}
+div#tabs-sched td.av_pref_slider_0{}
+div#tabs-sched td.no_bg{background-color: rgba(0,0,0,0);}
+/* INFO PAGES */
+div#mod_info td.table_button{
+	width:20px; 
+	border-style:outset; 
+	text-align:center; 
+	background:rgba(25, 150, 150, 0.5);
+	cursor:pointer;
+}
+div#mod_info tr.changed{
+	background-color: rgba(0,255,0,0.5);
+}
+div#mod_info tr.changed input{
+	background-color: rgba(150,255,150,0.5);
+}
+div#mod_info tr.del{
+	text-decoration:line-through;
+	background-color: rgba(255,0,0,0.5);
+}
+div#mod_info tr.del input{
+	text-decoration:line-through;
+	background-color: rgba(255,150,150,0.5);
+}
+div#mod_info tr.changed.del{
+	text-decoration:line-through;
+	background-color: rgba(255,0,0,0.5);
+}
+div#mod_info tr.changed.del input{
+	text-decoration:line-through;
+	background-color: rgba(255,150,150,0.5);
+}
+div#mod_info table[class^=info_] tr td.table_button.order.active{
+	background-color: gold;
+}
+div#mod_info div[id^=tabs-]{
+	overflow-x:scroll;
+}
+div#mod_info .hidden{display:none;}
+div#mod_info table.info_shift input{width:75px;}
+div#mod_info table.info_shift input[type=date]{width:145px;}
+div#mod_info table.info_shift input[type=time]{width:125px;}
+div#mod_info table.info_shift input.input_shift_name{width:130px;}
+
+
+/* ROTA NEEDS */
+div#rota_needs .rem{background:red;}
+table#rota_needs_cal .hidden{display:none;}
+
+/* SETTINGS PAGES */
+div#settings_staff table .border_bottom{ border-bottom:solid; border-width:2px}
+div#settings_staff table td.table_button{
+	width:20px; 
+	border-style:outset; 
+	text-align:center; 
+	background:rgba(25, 150, 150, 0.5);
+	cursor:pointer;
+}
+div#settings_staff .hidden_data{
+	display:none;
+}
+div#settings_staff .del{ background-color: red;}
+
+/* SLIDER & TOOLS */
+div#scroll_content{ height:500px; overflow:hidden; float:left;}
+div#scroll_bar{ height:450px; margin-top: 25px; margin-bottom: 25px; float:left;}
+tr.scroll_hidden{display:none;}

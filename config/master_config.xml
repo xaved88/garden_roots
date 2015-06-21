@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<days>
+		<day>
+			<id>1</id>
+			<name>Sunday</name>
+			<abbr>Sun</abbr>
+			<active>false</active>
+		</day>
+		<day>
+			<id>2</id>
+			<name>Monday</name>
+			<abbr>Mon</abbr>
+			<active>true</active>
+		</day>
+		<day>
+			<id>3</id>
+			<name>Tuesday</name>
+			<abbr>Tues</abbr>
+			<active>true</active>
+		</day>
+		<day>
+			<id>4</id>
+			<name>Wednesday</name>
+			<abbr>Wed</abbr>
+			<active>true</active>
+		</day>
+		<day>
+			<id>5</id>
+			<name>Thursday</name>
+			<abbr>Thurs</abbr>
+			<active>true</active>
+		</day>
+		<day>
+			<id>6</id>
+			<name>Friday</name>
+			<abbr>Fri</abbr>
+			<active>true</active>
+		</day>
+		<day>
+			<id>7</id>
+			<name>Saturday</name>
+			<abbr>Sat</abbr>
+			<active>true</active>
+		</day>
+	</days>
+	<prefs>
+		<pref>
+			<id>3</id>
+			<name>Wanted</name>
+			<mod>150</mod>
+		</pref>
+		<pref>
+			<id>2</id>
+			<name>Normal</name>
+			<mod>100</mod>
+		</pref>
+		<pref>
+			<id>1</id>
+			<name>Unpreferred</name>
+			<mod>50</mod>
+		</pref>
+	</prefs>
+	
+	<datestr><!-- Single: No array -->
+		<format>Y-m-d</format>
+	</datestr>
+	
+	<gender>
+		<id>1</id>
+		<disp>Male</disp>
+	</gender>
+	<gender>
+		<id>2</id>
+		<disp>Female</disp>
+	</gender>
+	
+	<staffTypes>
+		<type>
+			<name>Volunteer</name>
+			<id>1</id>
+		</type>
+		<type>
+			<name>Employee</name>
+			<id>2</id>
+		</type>
+		<type>
+		<name>Other</name>
+		<id>3</id>
+	</type>
+	</staffTypes>
+
+	<days_off_options>
+		<inline_css>div#pdo_cal table{font-size:90%}</inline_css>
+		<devotions_text>Devotions:</devotions_text>
+		<devotions_css>border: 1px solid black;
+font-size: 55%;
+height: 20px;</devotions_css>
+		<header_text/>
+		<header_css/>
+		<footer_text/>
+		<footer_css/>
+	</days_off_options>
+	
+	<arr_buffer>1</arr_buffer>
+	<dep_buffer>1</dep_buffer>
+<email><header>Dear [first_name],
+
+Here is your rota schedule for [when]:
+</header><footer>Please reply to this email if you have any questions.
+Thank you,
+
+Steve
+Garden Tomb Rotas</footer><css>table.roots_email_table, table.roots_email_table td, table.roots_email_table th{border: 1px solid black; padding: 2px 5px;}
+
+table.roots_email_table{border-collapse:collapse;}</css><subject>GT Schedule for [when]</subject><cc_sender> checked</cc_sender></email><company_web_0>shop - 3 shifts v1</company_web_0><company_web_1>reception and guides - 3 shifts v1</company_web_1><company_web_2>Blank</company_web_2></config>

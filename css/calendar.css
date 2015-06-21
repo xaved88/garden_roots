@@ -1,0 +1,5 @@
+/*CALENDAR STYLING*/
+
+.calendar_alternating tr:nth-child(odd){ background-color:#eee; }
+.calendar_alternating tr:nth-child(even){ background-color:#fff; }
+.calendar_alternating input{background-color: rgba(0,0,0,0);}

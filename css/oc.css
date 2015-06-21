@@ -1,0 +1,14 @@
+div.oc_standard{
+	height:500px; width:250px; border-color:black; border-style:solid;
+	background:ivory;
+}
+div.oc_standard .ui-accordion .ui-accordion-content {
+	width: 200px;
+	height: 200px;
+	font-size: 75%;
+}
+
+div.oc_standard input.input_number{
+	width: 35px;
+	text-align: center;
+}
